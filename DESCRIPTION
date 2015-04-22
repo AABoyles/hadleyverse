@@ -4,8 +4,8 @@ Title: Attaches a bunch of Hadley Wickham's most Popular Packages
 Version: 0.1
 Date: 2015-04-22
 Authors@R: person("Tony", "Boyles", email = "Anthony@Boyles.cc", role = c("aut", "cre"))
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: This package does absolutely nothing on its own. It merely attaches Hadley Wickham's most popular packages.
+Maintainer: Tony Boyles <Anthony@Boyles.cc>
+Description: This package does absolutely nothing on its own. Loading it merely attaches Hadley Wickham's most popular packages.
 Depends:
     plyr,
     ggplot2,
@@ -15,6 +15,11 @@ Depends:
     haven,
     lubridate,
     stringr,
-    httr
+    httr,
+    readxl,
+    devtools,
+    xml2,
+    testthat,
+    assertthat
 License: CC0 
 LazyData: TRUE
