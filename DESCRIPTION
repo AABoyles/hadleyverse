@@ -1,0 +1,20 @@
+Package: hadleyverse
+Type: Package
+Title: Attaches a bunch of Hadley Wickham's most Popular Packages
+Version: 0.1
+Date: 2015-04-22
+Authors@R: person("Tony", "Boyles", email = "Anthony@Boyles.cc", role = c("aut", "cre"))
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: This package does absolutely nothing on its own. It merely attaches Hadley Wickham's most popular packages.
+Depends:
+    plyr,
+    ggplot2,
+    dplyr,
+    tidyr,
+    readr,
+    haven,
+    lubridate,
+    stringr,
+    httr
+License: CC0 
+LazyData: TRUE
