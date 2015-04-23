@@ -1,6 +1,6 @@
 Package: hadleyverse
 Type: Package
-Title: Attaches a bunch of Hadley Wickham's most Popular Packages
+Title: Attaches a bunch of Hadley Wickham's CRAN Packages
 Version: 0.1
 Date: 2015-04-22
 Authors@R: person("Tony", "Boyles", email = "Anthony@Boyles.cc", role = c("aut", "cre"))

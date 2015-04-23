@@ -8,6 +8,7 @@ Written by Tony Boyles, but come on, seriously, Hadley Wickham did all the work.
 Installation
 ------------
 
+    # install.packages("devtools")
     library("devtools")
     install_github("aaboyles/hadleyverse")
 
@@ -15,24 +16,17 @@ Use
 ---
 
     library("hadleyverse") 
-    
     # All of the Hadleyverse is now available in your environment
     # No need to call library("plyr"), etc!
     
-    unLoadHadleyverse() 
-    #All of the Hadleyverse has been removed from your environment
-    
-    loadHadleyverse()
-    #All of the Hadleyverse is available in your environment again
-    
     detach("package:hadleyverse")
-    #All of the Hadleyverse has been removed from your environment again
+    # All of the Hadleyverse has been removed from your environment again
 
 
 What Happens
 ------------
 
-When you install an R Package, R checks the DESCRIPTION file for dependencies. If you have unmet dependencies, R tries to install them from CRAN.  Then, whenever you load the package, R makes those dependencies available.  This package just depends on everything Hadley Wickham has published to CRAN, despite the fact that it doesn't do anything.  Here are the packages it loads:
+When you install an R Package, R checks the DESCRIPTION file for dependencies. If you have unmet dependencies, R tries to install them from CRAN.  Then, whenever you load the package, R makes those dependencies available.  This package just "depends on" everything Hadley Wickham has published to CRAN, despite the fact that it doesn't do anything.  Here are the packages it loads:
 
  1. plyr
  2. ggplot2
@@ -52,3 +46,5 @@ NOTE
 ----
 
 Detaching this package automatically detaches *all* of its dependencies. So after you detach the Hadleyverse, you'll have to attach the packages you need again.
+
+This is a silly package that started out as a practical joke. Don't use it for anything important.

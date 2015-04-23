@@ -1,1 +1,15 @@
-.onUnload <- unLoadHadleyverse
+.onUnload <- function(...){
+  detach("package:plyr")
+  detach("package:ggplot2")
+  detach("package:dplyr")
+  detach("package:tidyr")
+  detach("package:readr")
+  detach("package:haven")
+  detach("package:lubridate")
+  detach("package:stringr")
+  detach("package:readxl")
+  detach("package:devtools")
+  detach("package:xml2")
+  detach("package:testthat")
+  detach("package:assertthat")
+}
