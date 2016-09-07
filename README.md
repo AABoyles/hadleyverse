@@ -1,6 +1,8 @@
 Hadleyverse
 ===========
 
+**This package is deprecated. Please use https://github.com/hadley/tidyverse instead.**
+
 An R package that just attaches Hadley Wickham's packages.
 
 Written by Tony Boyles, but come on, seriously, Hadley Wickham did all the work.
